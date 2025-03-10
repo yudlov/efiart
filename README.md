@@ -53,9 +53,9 @@
 <body>
     <div class="container">
         <!-- לוגו של החברה -->
-        <img src="LOGO_URL" alt="לוגו החברה" class="logo">
+        <img src="[LOGO_URL](https://github.com/user-attachments/assets/5677bb68-3942-4816-9e85-892b0b5e196a)" alt="לוגו החברה" class="logo">
 
-        <!-- תמונות מתחלפות -->
+
         <div class="slider">
             <div class="slides">
                 <!-- הוסף כאן את התמונה מתוך גוגל דרייב -->
@@ -76,7 +76,7 @@
             document.querySelector('.slides').style.transform = `translateX(-${currentIndex * 100}%)`;
         }
 
-        setInterval(showNextSlide, 3000); // התמונה תשתנה כל 3 שניות
+        setInterval(showNextSlide, 30000); // התמונה תשתנה כל 30 שניות
     </script>
 </body>
 </html>
